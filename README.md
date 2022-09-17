@@ -183,30 +183,28 @@
     mayoresfacturasascendente = mayoresfacturas.sort_values(by = "Importe factura", ascending=False)
     mayoresfacturasascendente.head(20)
 
-# df3eliminan ## VER EL DF
-# df3eliminan["Telefono 1"] = df3eliminan["Telefono 1"].str.replace(r"\(.*\)","")
-# df3eliminan["Telefono 2"] = df3eliminan["Telefono 2"].str.replace(r"\(.*\)","") ##ELIMINAR LO QUE ESTE ENTRE ()
-# df3eli = df3.drop(["Referencia"], axis=1) ## ELIMINAR REFERENCIA
-# df3elimi = df3eli.dropna() ## ELIMINAR NAN
-# df3elimi.info()
-# df['Fecha'] = pd.to_datetime(df['Fecha'], format='%Y%m%d').dt.strftime('%d/%m/%Y') cambiar tipo de fecha en DF
-# df [(df['col1']> 25) & (df ['col2'] <30)] # logic y SELECCIONAR COLUMNAS CON VALORES
-# df [(df['col1']> 25) | (df ​​['col2'] <30)] # lógica o SELECCIONAR COLUMNAS CON VALORES
-# df [!(df['col1']> 25)] # lógica no
-# items_df['Final Price'] = items_df['Actual Price'] - \ ((items_df['Discount(%)']/100) * items_df['Actual Price']) ## AGREGAR OPERACIÓN DE DOS COLUMNAS
+### df3eliminan ## VER EL DF
+### df3eliminan["Telefono 1"] = df3eliminan["Telefono 1"].str.replace(r"\(.*\)","")
+### df3eliminan["Telefono 2"] = df3eliminan["Telefono 2"].str.replace(r"\(.*\)","") ##ELIMINAR LO QUE ESTE ENTRE ()
+### df3eli = df3.drop(["Referencia"], axis=1) ## ELIMINAR REFERENCIA
+### df3elimi = df3eli.dropna() ## ELIMINAR NAN
+### df3elimi.info()
+### df['Fecha'] = pd.to_datetime(df['Fecha'], format='%Y%m%d').dt.strftime('%d/%m/%Y') cambiar tipo de fecha en DF
+### df [(df['col1']> 25) & (df ['col2'] <30)] # logic y SELECCIONAR COLUMNAS CON VALORES
+### df [(df['col1']> 25) | (df ​​['col2'] <30)] # lógica o SELECCIONAR COLUMNAS CON VALORES
+### df [!(df['col1']> 25)] # lógica no
+### items_df['Final Price'] = items_df['Actual Price'] - \ ((items_df['Discount(%)']/100) * items_df['Actual Price']) ## AGREGAR OPERACIÓN DE DOS COLUMNAS
 
-# dffinal["Telefonofijo"] = dffinal["Telefonofijo"].apply(str).str.replace('.', ',') ## SE COnvierte .a ,
-# Solucion["Celular"].astype(str).astype(np.int64) CAMBIAR DE OBJECT A INT64
-# Telefono = dffinal.Celular.str.startswith("3") ## VALORES QUE COMIENCEN POR 3
-# dffinal["Telefono"]= Telefono
+### dffinal["Telefonofijo"] = dffinal["Telefonofijo"].apply(str).str.replace('.', ',') ## SE COnvierte .a ,
+### Solucion["Celular"].astype(str).astype(np.int64) CAMBIAR DE OBJECT A INT64
+### Telefono = dffinal.Celular.str.startswith("3") ## VALORES QUE COMIENCEN POR 3
+### dffinal["Telefono"]= Telefono
 
-# def func(x): UNIR VARIAS COLUMNAS EN  EL DF
+## def func(x): UNIR VARIAS COLUMNAS EN  EL DF
 
     ##return x[6] + x[4] + x[5] ## s
 
-# Solucion["Telefono fijo"] = Solucion.apply(func, axis=1) 
-
-
-# Solucion["Telefono fijo"] = Solucion.apply(lambda x: x.a+x.b+x.c, axis=1) SUMAR VARIAS COLUMNAS EN  EL DF
+### Solucion["Telefono fijo"] = Solucion.apply(func, axis=1) 
+### Solucion["Telefono fijo"] = Solucion.apply(lambda x: x.a+x.b+x.c, axis=1) SUMAR VARIAS COLUMNAS EN  EL DF
 
 
