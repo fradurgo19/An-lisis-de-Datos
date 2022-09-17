@@ -2,15 +2,15 @@
 
 # Importar librerias
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt
 
 # Importar data
 
-df = pd.read_excel(r"C:\Users\fadg1\OneDrive\Escritorio\Analytics\Prueba\ASISTENTE DE HERRAMIENTAS EXCEL/Ejercicio-tratamiento data.xlsx")
-df1=pd.read_excel(r"C:\Users\fadg1\OneDrive\Escritorio\Analytics\Prueba\ASISTENTE DE HERRAMIENTAS EXCEL/Ejercicio-tratamiento data.xlsx", sheet_name='Base de datos') 
-df2=pd.read_excel(r"C:\Users\fadg1\OneDrive\Escritorio\Analytics\Prueba\ASISTENTE DE HERRAMIENTAS EXCEL/Ejercicio-tratamiento data.xlsx", sheet_name='indicativos')
+    df = pd.read_excel(r"C:\Users\fadg1\OneDrive\Escritorio\Analytics\Prueba\ASISTENTE DE HERRAMIENTAS EXCEL/Ejercicio-tratamiento data.xlsx")
+    df1=pd.read_excel(r"C:\Users\fadg1\OneDrive\Escritorio\Analytics\Prueba\ASISTENTE DE HERRAMIENTAS EXCEL/Ejercicio-tratamiento data.xlsx", sheet_name='Base de datos') 
+    df2=pd.read_excel(r"C:\Users\fadg1\OneDrive\Escritorio\Analytics\Prueba\ASISTENTE DE HERRAMIENTAS EXCEL/Ejercicio-tratamiento data.xlsx", sheet_name='indicativos')
 
 # Verificar si se repite
 
